@@ -1,0 +1,44 @@
+name: w2eat
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  google_sign_in: ^6.2.1
+  http: ^0.13.4
+  swipe_cards: ^2.0.0+1
+  firebase_dynamic_links: ^5.5.7
+  share_plus: ^9.0.0
+  
+dev_dependencies:
+  flutter_launcher_icons: ^0.12.0 
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/logo.png"
+
+flutter:
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: lib/assets/fonts/Roboto-Regular.ttf
+        - asset: lib/assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: lib/assets/fonts/Roboto-Italic.ttf
+          style: italic
+  uses-material-design: true
+  assets:
+    - images/

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "355317054164",
+    "project_id": "w2eat-5e4a4",
+    "storage_bucket": "w2eat-5e4a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355317054164:android:3695628fb9be4f20b71941",
+        "android_client_info": {
+          "package_name": "com.example.w2eat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO6fzSBRE3rrOvpxrH-tjBgqezsT1Ny_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
